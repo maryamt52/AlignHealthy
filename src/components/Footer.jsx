@@ -2,11 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer style={{ background: 'var(--color-primary)', color: 'white', padding: '4rem 0' }}>
+        <footer style={{ background: 'black', color: 'white', padding: '4rem 0' }}>
             <div className="container">
                 <div className="grid grid-3" style={{ marginBottom: '3rem' }}>
                     <div>
-                        <h3 style={{ color: 'white', marginBottom: '1rem' }}>Align Healthy</h3>
+                        <h3 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>Align Healthy</h3>
                         <p style={{ opacity: 0.8, maxWidth: '300px' }}>
                             Empowering you to live a stronger, healthier life through science-based nutrition and fitness.
                         </p>
