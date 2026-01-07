@@ -1,6 +1,8 @@
 import React from 'react';
+import { useModal } from '../context/ModalContext';
 
 const Hero = () => {
+    const { openModal } = useModal();
     return (
         <header style={{
             position: 'relative',
@@ -54,25 +56,28 @@ const Hero = () => {
                 <h1 style={{
                     fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
                     fontWeight: '700',
-                    marginBottom: '2rem',
+                    marginBottom: '1.5rem',
                     lineHeight: 1.2,
                     color: 'white',
                     textShadow: '0 2px 10px rgba(0,0,0,0.3)',
                     fontFamily: "'DM Sans', sans-serif"
                 }}>
-                    Align Your Health with Science-Based Fitness and Precision Nutrition
+                    Evolving Your Health. Built for the Long Game.
                 </h1>
 
-                <a href="/program-selection" className="btn" style={{
+                <button onClick={openModal} className="btn" style={{
                     backgroundColor: 'white',
                     color: 'black',
                     padding: '1.25rem 2.5rem',
                     fontSize: '1.1rem',
                     fontWeight: '600',
-                    marginTop: '1rem'
+                    marginTop: '1rem',
+                    cursor: 'pointer',
+                    border: 'none',
+                    borderRadius: '4px'
                 }}>
-                    Start Transformation
-                </a>
+                    Book a Discovery Call
+                </button>
             </div>
         </header>
     );

@@ -1,44 +1,34 @@
 import React from 'react';
+import { FaInstagram, FaFacebookF, FaYoutube, FaTiktok, FaPodcast } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <footer style={{ background: 'black', color: 'white', padding: '4rem 0' }}>
             <div className="container">
-                <div className="grid grid-3" style={{ marginBottom: '3rem' }}>
+                <div className="grid grid-3" style={{ marginBottom: '3rem', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
                     <div>
                         <h3 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>Align Healthy</h3>
-                        <p style={{ opacity: 0.8, maxWidth: '300px' }}>
-                            Empowering you to live a stronger, healthier life through science-based nutrition and fitness.
+                        <p style={{ opacity: 0.8, maxWidth: '500px', margin: '0 auto 2rem auto' }}>
+                            Evolving Your Health. Built for the Long Game.
                         </p>
                     </div>
 
-                    <div>
-                        <h4 style={{ color: 'var(--color-accent)', marginBottom: '1rem', fontSize: '0.875rem', textTransform: 'uppercase' }}>Quick Links</h4>
-                        <ul style={{ listStyle: 'none' }}>
-                            <li style={{ marginBottom: '0.5rem' }}><a href="/program-selection" style={{ opacity: 0.8 }}>Programs</a></li>
-                            <li style={{ marginBottom: '0.5rem' }}><a href="#content" style={{ opacity: 0.8 }}>Podcast & Videos</a></li>
-                            <li style={{ marginBottom: '0.5rem' }}><a href="#about" style={{ opacity: 0.8 }}>About Me</a></li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 style={{ color: 'var(--color-accent)', marginBottom: '1rem', fontSize: '0.875rem', textTransform: 'uppercase' }}>Stay Connected</h4>
-                        <p style={{ opacity: 0.8, marginBottom: '1rem' }}>Join the newsletter for weekly tips and recipes.</p>
-                        <form style={{ display: 'flex', gap: '0.5rem' }}>
-                            <input
-                                type="email"
-                                placeholder="Your email"
-                                style={{
-                                    padding: '0.5rem 1rem',
-                                    borderRadius: 'var(--radius-full)',
-                                    border: 'none',
-                                    flex: 1
-                                }}
-                            />
-                            <button className="btn btn-accent" style={{ padding: '0.5rem 1rem' }}>
-                                Join
-                            </button>
-                        </form>
+                    <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 0.8 }} aria-label="Instagram">
+                            <FaInstagram size={18} /> <span>Instagram</span>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 0.8 }} aria-label="Facebook">
+                            <FaFacebookF size={18} /> <span>Facebook</span>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 0.8 }} aria-label="YouTube">
+                            <FaYoutube size={18} /> <span>YouTube</span>
+                        </a>
+                        <a href="#" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 0.8 }} aria-label="Podcast">
+                            <FaPodcast size={18} /> <span>Podcast</span>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 0.8 }} aria-label="TikTok">
+                            <FaTiktok size={18} /> <span>TikTok</span>
+                        </a>
                     </div>
                 </div>
 

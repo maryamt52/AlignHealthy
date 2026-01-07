@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { useModal } from '../context/ModalContext';
 import '../styles/main.css';
 
 const Navbar = () => {
+  const { openModal } = useModal();
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -18,42 +20,41 @@ const Navbar = () => {
     left: 0,
     right: 0,
     zIndex: 1000,
-    backgroundColor: isScrolled ? 'rgba(0, 0, 0, 0.95)' : 'rgba(0, 0, 0, 0.8)', // Dark background
-    backdropFilter: isScrolled ? 'blur(10px)' : 'none',
-    borderBottom: isScrolled ? '1px solid rgba(255,255,255,0.1)' : 'none',
+    backgroundColor: 'rgba(255, 255, 255, 0.95)', // White background
+    backdropFilter: 'blur(10px)',
+    borderBottom: '1px solid rgba(0,0,0,0.1)',
     transition: 'all 0.3s ease',
-    padding: '0.5rem 0', // Reduced padding
-  };
-
-  const logoStyles = {
-    fontSize: '1.5rem',
-    fontWeight: '700',
-    letterSpacing: '-0.03em',
-    color: 'white', // White text for dark bg
+    padding: '0 0',
+    height: '100px', // Reduced height significantly
+    display: 'flex',
+    alignItems: 'center'
   };
 
   const linkStyles = {
-    marginLeft: '2.5rem',
-    fontWeight: '500',
+    marginLeft: '2rem',
+    fontWeight: '600',
     fontSize: '0.95rem',
-    color: 'white', // White text for dark bg
-    opacity: 0.9,
-    transition: 'opacity 0.2s',
+    color: '#1a1a1a', // Dark text
+    cursor: 'pointer',
+    background: 'none',
+    border: 'none',
+    padding: 0,
+    fontFamily: 'inherit'
   };
 
   return (
     <nav style={navStyles}>
-      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <a href="/" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/logo.png" alt="Align Healthy" style={{ height: '120px', width: 'auto', maxHeight: '120px' }} />
+      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%' }}>
+        <a href="/" style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
+          <img src="/logo.png" alt="Align Healthy" style={{ height: '85px', width: 'auto', objectFit: 'contain' }} />
         </a>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <div className="desktop-links" style={{ display: 'flex', alignItems: 'center' }}>
-            <a href="#about" style={linkStyles}>About</a>
-            <a href="#content" style={linkStyles}>Learn</a>
-            <a href="/program-selection" className="btn btn-primary" style={{ marginLeft: '2rem', padding: '0.75rem 1.5rem', fontSize: '0.9rem' }}>
-              Start Transformation
-            </a>
+            <a href="/" style={linkStyles}>Home</a>
+            <a href="/about" style={linkStyles}>About</a>
+            <button onClick={openModal} style={linkStyles}>
+              Contact
+            </button>
           </div>
         </div>
       </div>
