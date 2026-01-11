@@ -62,7 +62,8 @@ const Hero = () => {
                     textShadow: '0 2px 10px rgba(0,0,0,0.3)',
                     fontFamily: "'DM Sans', sans-serif"
                 }}>
-                    Evolving Your Health. Built for the Long Game.
+                    Evolving Your Health.<br />
+                    Built for the Long Game.
                 </h1>
 
                 <button onClick={openModal} className="btn" style={{
