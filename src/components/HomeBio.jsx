@@ -8,7 +8,7 @@ const HomeBio = () => {
                     Your health is built in the days you don’t quit.
                 </p>
                 <p style={{ fontSize: '1.125rem', lineHeight: '1.6', color: 'var(--color-text-main)' }}>
-                    At Align Healthy, we offer personal training and nutrition coaching designed to help you turn movement and better nutrition into habits that last — without extreme rules or short-lived hype. Whether coaching happens online or in person, the goal stays the same: giving you the structure and support you need to keep showing up long enough for real change to stick.
+                    With Align Healthy, we offer personal training and nutrition coaching designed to help you turn movement and better nutrition into habits that last — without extreme rules or short-lived hype. Whether coaching happens online or in person, the goal stays the same: giving you the structure and support you need to keep showing up long enough for real change to stick.
                 </p>
             </div>
         </section>
