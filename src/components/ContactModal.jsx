@@ -83,7 +83,7 @@ const ContactModal = () => {
                     phone: formData.phone, // Formatted phone string
                     email: formData.email,
                     service: formData.service,
-                    _subject: "New Application: Learn How It Works - Align Healthy",
+                    _subject: "New Application: Learn How It Works - Align Health Method",
                     _template: "table"
                 })
             });

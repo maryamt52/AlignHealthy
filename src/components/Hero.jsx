@@ -62,8 +62,8 @@ const Hero = () => {
                     textShadow: '0 2px 10px rgba(0,0,0,0.3)',
                     fontFamily: "'DM Sans', sans-serif"
                 }}>
-                    Evolving Your Health.<br />
-                    Built for the Long Game.
+                    Align Health Method<br />
+                    <span style={{ fontSize: '0.6em', fontWeight: '400', display: 'block', marginTop: '0.5rem' }}>Personal Training & Nutrition Coaching</span>
                 </h1>
 
                 <button onClick={openModal} className="btn" style={{

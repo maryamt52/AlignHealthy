@@ -46,7 +46,7 @@ const Navbar = () => {
     <nav style={navStyles}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%' }}>
         <a href="/" style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
-          <img src="/logo.png" alt="Align Healthy" style={{ height: '85px', width: 'auto', objectFit: 'contain' }} />
+          <img src="/logo.png" alt="Align Health Method" style={{ height: '85px', width: 'auto', objectFit: 'contain' }} />
         </a>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <div className="desktop-links" style={{ display: 'flex', alignItems: 'center' }}>

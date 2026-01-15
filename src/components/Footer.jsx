@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div className="grid grid-3" style={{ marginBottom: '3rem', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
                     <div>
-                        <h3 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>Align Healthy</h3>
+                        <h3 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>Align Health Method</h3>
                         <p style={{ opacity: 0.8, maxWidth: '500px', margin: '0 auto 2rem auto' }}>
                             Evolving Your Health. Built for the Long Game.
                         </p>
@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
 
                 <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2rem', textAlign: 'center', opacity: 0.6, fontSize: '0.875rem' }}>
-                    © {new Date().getFullYear()} Align Healthy. All rights reserved.
+                    © {new Date().getFullYear()} Align Health Method. All rights reserved.
                 </div>
             </div>
         </footer>
