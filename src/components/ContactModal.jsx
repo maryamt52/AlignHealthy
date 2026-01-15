@@ -47,21 +47,13 @@ const ContactModal = () => {
 
             // Show success message
             setSubmitted(true);
-            setTimeout(() => {
-                setSubmitted(false);
-                closeModal();
-                setFormData({ name: '', phone: '', email: '', confirmEmail: '' });
-            }, 3000);
+            setFormData({ name: '', phone: '', email: '', confirmEmail: '', service: 'Fitness Training' });
 
         } catch (error) {
             console.error("Form submission error", error);
             // Fallback success for better user experience
             setSubmitted(true);
-            setTimeout(() => {
-                setSubmitted(false);
-                closeModal();
-                setFormData({ name: '', phone: '', email: '', confirmEmail: '' });
-            }, 3000);
+            setFormData({ name: '', phone: '', email: '', confirmEmail: '', service: 'Fitness Training' });
         }
     };
 
