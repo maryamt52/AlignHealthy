@@ -77,8 +77,19 @@ const Hero = () => {
                     border: 'none',
                     borderRadius: '4px'
                 }}>
-                    Book a Discovery Call
+                    Learn How It Works
                 </button>
+                <p style={{
+                    marginTop: '1rem',
+                    fontSize: '0.9rem',
+                    fontWeight: 400,
+                    opacity: 0.9,
+                    maxWidth: '400px',
+                    marginLeft: 'auto',
+                    marginRight: 'auto'
+                }}>
+                    No booking. No pressure. I’ll reach out after reviewing your application
+                </p>
             </div>
         </header>
     );

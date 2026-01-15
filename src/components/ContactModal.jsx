@@ -7,7 +7,8 @@ const ContactModal = () => {
         name: '',
         phone: '',
         email: '',
-        confirmEmail: ''
+        confirmEmail: '',
+        service: 'Fitness Training' // Default value
     });
     const [submitted, setSubmitted] = useState(false);
 
@@ -38,7 +39,8 @@ const ContactModal = () => {
                     name: formData.name,
                     phone: formData.phone,
                     email: formData.email,
-                    _subject: "New Discovery Call Request - Align Healthy",
+                    service: formData.service,
+                    _subject: "New Application: Learn How It Works - Align Healthy",
                     _template: "table"
                 })
             });
@@ -102,12 +104,13 @@ const ContactModal = () => {
 
                 {submitted ? (
                     <div style={{ textAlign: 'center', color: '#2C5F2D', padding: '1rem', width: '100%' }}>
-                        <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Thank you!</h3>
-                        <p style={{ fontSize: '1.1rem' }}>We will contact you shortly.</p>
+                        <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Thank you for reaching out.</h3>
+                        <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>Please verify your email.</p>
+                        <p style={{ fontSize: '1.1rem' }}>I’ll get back to you as soon as possible.</p>
                     </div>
                 ) : (
                     <div style={{ width: '100%' }}>
-                        <h2 style={{ marginBottom: '1.5rem', textAlign: 'center' }}>Book a Discovery Call</h2>
+                        <h2 style={{ marginBottom: '1.5rem', textAlign: 'center', fontSize: '1.8rem' }}>Learn How It Works</h2>
                         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                             <div>
                                 <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>Name</label>
@@ -157,8 +160,22 @@ const ContactModal = () => {
                                     placeholder="Confirm Email"
                                 />
                             </div>
-                            <button type="submit" className="btn btn-primary" style={{ marginTop: '1rem', width: '100%' }}>
-                                Submit Request
+                            <div>
+                                <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: '500' }}>Service Selection <span style={{ color: 'red' }}>*</span></label>
+                                <select
+                                    required
+                                    name="service"
+                                    value={formData.service}
+                                    onChange={handleChange}
+                                    style={{ width: '100%', padding: '0.75rem', borderRadius: '4px', border: '1px solid #ccc', backgroundColor: 'white' }}
+                                >
+                                    <option value="Fitness Training">Fitness Training</option>
+                                    <option value="Nutrition Coaching">Nutrition Coaching</option>
+                                    <option value="Both Fitness Training & Nutrition Coaching">Both Fitness Training & Nutrition Coaching</option>
+                                </select>
+                            </div>
+                            <button type="submit" className="btn btn-primary" style={{ marginTop: '0.5rem', width: '100%' }}>
+                                Submit Application
                             </button>
                         </form>
                     </div>
