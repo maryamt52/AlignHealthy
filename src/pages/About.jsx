@@ -33,7 +33,7 @@ const About = () => {
 
                     <div style={{ textAlign: 'center', marginTop: '3rem' }}>
                         <button onClick={openModal} className="btn btn-primary">
-                            Book a Discovery Call
+                            Learn How It Works
                         </button>
                     </div>
                 </div>
