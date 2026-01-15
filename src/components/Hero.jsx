@@ -64,6 +64,7 @@ const Hero = () => {
                 }}>
                     Align Health Method<br />
                     <span style={{ fontSize: '0.6em', fontWeight: '400', display: 'block', marginTop: '0.5rem' }}>Personal Training & Nutrition Coaching</span>
+                    <span style={{ fontSize: '0.4em', fontWeight: '300', display: 'block', marginTop: '0.5rem', opacity: 0.9 }}>Online or In Person.</span>
                 </h1>
 
                 <button onClick={openModal} className="btn" style={{

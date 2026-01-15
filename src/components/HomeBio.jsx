@@ -5,7 +5,7 @@ const HomeBio = () => {
         <section className="section" style={{ background: 'var(--color-white)', padding: '4rem 0' }}>
             <div className="container" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'left' }}>
                 <p style={{ fontWeight: '600', marginBottom: '1.5rem', fontSize: '1.25rem', color: 'var(--color-text-main)', textAlign: 'center' }}>
-                    Personal training and nutrition coaching built for long-term health — with structure, accountability, and consistency. Online or in person.
+                    Personal training and nutrition coaching built for long-term health — with structure, accountability, and consistency.
                 </p>
 
                 <h2 style={{ textAlign: 'center', fontSize: '1.75rem', fontWeight: '700', marginBottom: '2rem', color: 'var(--color-primary)' }}>
