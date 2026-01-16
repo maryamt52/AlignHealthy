@@ -25,7 +25,7 @@ const Navbar = () => {
     borderBottom: '1px solid rgba(0,0,0,0.1)',
     transition: 'all 0.3s ease',
     padding: '0 0',
-    height: '100px', // Reduced height significantly
+    height: '200px', // Increased height for larger logo
     display: 'flex',
     alignItems: 'center'
   };
@@ -46,7 +46,7 @@ const Navbar = () => {
     <nav style={navStyles}>
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%' }}>
         <a href="/" style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
-          <img src="/logo.png" alt="Align Health Method" style={{ height: '85px', width: 'auto', objectFit: 'contain' }} />
+          <img src="/logo.png" alt="Align Health Method" style={{ height: '170px', width: 'auto', objectFit: 'contain' }} />
         </a>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <div className="desktop-links" style={{ display: 'flex', alignItems: 'center' }}>
