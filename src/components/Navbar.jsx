@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <nav style={navStyles}>
-      <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%', width: '100%', padding: '0 2rem' }}>
         <a href="/" style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
           <img src="/logo.png" alt="Align Health Method" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
         </a>
