@@ -20,12 +20,12 @@ const Navbar = () => {
     left: 0,
     right: 0,
     zIndex: 1000,
-    backgroundColor: 'rgba(255, 255, 255, 0.95)', // White background
+    backgroundColor: 'var(--color-bg)', // Cream background to match theme
     backdropFilter: 'blur(10px)',
-    borderBottom: '1px solid rgba(0,0,0,0.1)',
+    borderBottom: '1px solid rgba(0,0,0,0.05)',
     transition: 'all 0.3s ease',
     padding: '0 0',
-    height: '110px', // Reduced height to minimize white ribbon
+    height: '80px', // Reduced height (narrower)
     display: 'flex',
     alignItems: 'center'
   };
@@ -46,7 +46,7 @@ const Navbar = () => {
     <nav style={navStyles}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100%', width: '100%', padding: '0 2rem' }}>
         <a href="/" style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
-          <img src="/logo.png" alt="Align Health Method" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
+          <img src="/logo.png" alt="Align Health Method" style={{ height: '240px', width: 'auto', objectFit: 'contain', marginTop: '10px' }} />
         </a>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <div className="desktop-links" style={{ display: 'flex', alignItems: 'center' }}>
