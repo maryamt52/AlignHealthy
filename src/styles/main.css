@@ -180,6 +180,7 @@ video {
 
 
 /* Responsive Navbar */
+/* Step 2: Flex centering and removing extras on navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -191,12 +192,21 @@ video {
   height: 60px;
   display: flex;
   align-items: center;
-  padding-top: 0;
-  padding-bottom: 0;
+  /* Critical vertical centering */
+  padding: 0 !important;
   border: none !important;
   box-shadow: none !important;
+  transition: all 0.3s ease;
 }
 
+/* Step 5: Remove pseudo-elements */
+.navbar::before,
+.navbar::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Step 3: Flex centering for inner container */
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -207,9 +217,17 @@ video {
   /* Desktop Padding */
 }
 
-.navbar-logo {
+/* Step 4: Ensure anchor wrapping logo is centered */
+.navbar-container a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Step 1: Explicit logo targeting */
+img.navbar-logo {
   max-height: 40px;
-  height: auto;
+  height: auto !important;
   width: auto;
   display: block;
   object-fit: contain;
@@ -221,9 +239,10 @@ video {
     /* Mobile Padding - reduced significantly */
   }
 
-  .navbar-logo {
+  /* Mobile tweaks */
+  img.navbar-logo {
     max-height: 35px;
-    height: auto;
+    /* Keep mobile slightly smaller */
   }
 }
 
