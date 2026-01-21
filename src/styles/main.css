@@ -188,11 +188,13 @@ video {
   z-index: 1000;
   background-color: var(--color-bg);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .navbar-container {
@@ -206,10 +208,11 @@ video {
 }
 
 .navbar-logo {
-  height: 400px;
+  max-height: 40px;
+  height: auto;
   width: auto;
+  display: block;
   object-fit: contain;
-  margin-top: 10px;
 }
 
 @media (max-width: 768px) {
@@ -219,9 +222,8 @@ video {
   }
 
   .navbar-logo {
-    height: 120px;
-    /* Mobile Logo Size - visible but not huge */
-    margin-top: 5px;
+    max-height: 35px;
+    height: auto;
   }
 }
 
