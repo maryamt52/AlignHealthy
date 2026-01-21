@@ -189,9 +189,9 @@ video {
   z-index: 1000;
   background-color: var(--color-bg);
   backdrop-filter: blur(10px);
-  height: 160px;
-  /* Ultra-tall for maximum visibility */
-  min-height: 160px;
+  height: 80px;
+  /* Balanced height */
+  min-height: 80px;
   display: flex;
   align-items: center;
   /* Critical: Vertical Centering */
@@ -231,8 +231,8 @@ nav.navbar a {
 
 /* Step 2: Logo strictly constrained, not driving layout */
 img.navbar-logo {
-  max-height: 150px;
-  /* Huge size requested */
+  max-height: 70px;
+  /* Prominent but not overwhelming */
   height: auto !important;
   width: auto;
   display: block;
@@ -247,8 +247,8 @@ img.navbar-logo {
 
   /* Mobile tweaks */
   img.navbar-logo {
-    max-height: 100px;
-    /* Bigger mobile presence */
+    max-height: 50px;
+    /* Standard mobile size */
   }
 }
 
