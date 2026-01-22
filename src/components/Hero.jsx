@@ -60,7 +60,7 @@ const Hero = () => {
                     lineHeight: 1.2,
                     color: 'white',
                     textShadow: '0 2px 10px rgba(0,0,0,0.3)',
-                    fontFamily: "'DM Sans', sans-serif"
+
                 }}>
                     Align Health Method<br />
                     <span style={{ fontSize: '0.6em', fontWeight: '400', display: 'block', marginTop: '0.5rem' }}>Personal Training & Nutrition Coaching</span>
