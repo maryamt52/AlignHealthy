@@ -22,11 +22,9 @@ const Navbar = () => {
         </a>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <div className="desktop-links" style={{ display: 'flex', alignItems: 'center' }}>
-            <a href="/" className="nav-link">Home</a>
-            <a href="/about" className="nav-link">About</a>
-            <button onClick={openModal} className="nav-link">
-              Contact
-            </button>
+            <a href="#home" className="nav-link">Home</a>
+            <a href="#about" className="nav-link">About</a>
+            <a href="#contact" className="nav-link">Contact</a>
           </div>
         </div>
       </div>

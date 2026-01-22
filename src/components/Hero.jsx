@@ -67,7 +67,7 @@ const Hero = () => {
                     <span style={{ fontSize: '0.4em', fontWeight: '300', display: 'block', marginTop: '0.5rem', opacity: 0.9 }}>Online or In Person.</span>
                 </h1>
 
-                <button onClick={openModal} className="btn" style={{
+                <a href="#contact" className="btn" style={{
                     backgroundColor: 'white',
                     color: 'black',
                     padding: '1.25rem 2.5rem',
@@ -76,10 +76,12 @@ const Hero = () => {
                     marginTop: '1rem',
                     cursor: 'pointer',
                     border: 'none',
-                    borderRadius: '4px'
+                    borderRadius: '4px',
+                    textDecoration: 'none',
+                    display: 'inline-block'
                 }}>
-                    Learn How It Works
-                </button>
+                    Start Today
+                </a>
 
             </div>
         </header>

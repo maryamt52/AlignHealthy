@@ -1,13 +1,17 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import HomeBio from '../components/HomeBio';
+import IntroSection from '../components/IntroSection';
+import AboutSection from '../components/AboutSection';
+import ContactSection from '../components/ContactSection';
 
 const Home = () => {
     return (
-        <>
+        <div id="home">
             <Hero />
-            <HomeBio />
-        </>
+            <IntroSection />
+            <AboutSection />
+            <ContactSection />
+        </div>
     );
 };
 
