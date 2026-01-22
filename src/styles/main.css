@@ -15,7 +15,7 @@
   --color-border: #E0DCD8;
 
   /* Typography */
-  --font-main: 'DM Sans', sans-serif;
+  --font-main: 'Inter', sans-serif;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -270,4 +270,59 @@ img.navbar-logo {
   padding: 0;
   font-family: inherit;
   text-decoration: none;
+}
+
+/* About Page Specifics */
+.about-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-content {
+  color: var(--color-text-main);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}
+
+.about-chart {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  /* box-shadow: var(--shadow-md); removed shadow for cleaner look on diagram */
+}
+
+.mobile-only-chart {
+  display: block;
+  margin: 2rem 0;
+}
+
+.desktop-only-chart {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    /* Text slightly wider */
+    gap: 4rem;
+    align-items: start;
+    padding-top: 2rem;
+  }
+
+  .mobile-only-chart {
+    display: none;
+  }
+
+  .desktop-only-chart {
+    display: block;
+    position: sticky;
+    top: 100px;
+  }
 }
