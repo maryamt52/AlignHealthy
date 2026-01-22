@@ -1,8 +1,6 @@
 import React from 'react';
-import { useModal } from '../context/ModalContext';
 
 const Hero = () => {
-    const { openModal } = useModal();
     return (
         <header style={{
             position: 'relative',

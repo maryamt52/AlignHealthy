@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { useModal } from '../context/ModalContext';
 import '../styles/main.css';
 
 const Navbar = () => {
-  const { openModal } = useModal();
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
