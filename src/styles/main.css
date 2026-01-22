@@ -309,10 +309,11 @@ img.navbar-logo {
 @media (min-width: 900px) {
   .about-grid {
     display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    /* Text slightly wider */
-    gap: 4rem;
-    align-items: start;
+    grid-template-columns: 1fr 1fr;
+    /* EQUAL width for larger diagram */
+    gap: 3rem;
+    align-items: center;
+    /* Center diagram vertically */
     padding-top: 2rem;
   }
 
