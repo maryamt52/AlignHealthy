@@ -312,9 +312,8 @@ img.navbar-logo {
     grid-template-columns: 1fr 1fr;
     /* EQUAL width for larger diagram */
     gap: 3rem;
-    align-items: center;
-    /* Center diagram vertically */
-    padding-top: 2rem;
+    align-items: start;
+    padding-top: 0;
   }
 
   .mobile-only-chart {
