@@ -28,9 +28,10 @@ const AboutSection = () => {
 
                         {/* Mobile Image: Appears after 2nd paragraph */}
                         <img
-                            src="/align-method-chart.png"
+                            src="/align-method-chart.png?v=2"
                             alt="Align Health Method - Personalized, Structured, Sustainable"
                             className="about-chart mobile-only-chart"
+                            style={{ mixBlendMode: 'multiply' }}
                         />
 
                         <p>
@@ -46,9 +47,10 @@ const AboutSection = () => {
 
                     <div className="about-image desktop-only-chart">
                         <img
-                            src="/align-method-chart.png"
+                            src="/align-method-chart.png?v=2"
                             alt="Align Health Method - Personalized, Structured, Sustainable"
                             className="about-chart"
+                            style={{ mixBlendMode: 'multiply' }}
                         />
                     </div>
                 </div>
