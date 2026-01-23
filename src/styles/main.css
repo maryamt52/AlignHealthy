@@ -296,6 +296,7 @@ img.navbar-logo {
   height: auto;
   object-fit: contain;
   border-radius: var(--radius-md);
+  clip-path: inset(4px); /* Crops 4px from edges to remove baked-in borders */
   /* box-shadow: var(--shadow-md); removed shadow for cleaner look on diagram */
 }
 
