@@ -26,12 +26,7 @@ const AboutSection = () => {
                             <strong style={{ fontWeight: '600' }}>The ALIGN Health Method</strong> is not about extremes, trends, or one-size-fits-all programs. It aligns science-based fitness and nutrition methods—from strength training to sustainable eating—in a way that works for real life, at any age and starting point.
                         </p>
 
-                        {/* Mobile Image: Appears after 2nd paragraph */}
-                        <img
-                            src="/align-method-chart.png?v=11"
-                            alt="Align Health Method - Personalized, Structured, Sustainable"
-                            className="about-chart mobile-only-chart"
-                        />
+
 
                         <p>
                             This approach is for people who want to stay <strong style={{ fontWeight: '600' }}>strong, mobile, and fit over the long term</strong>—or who are simply looking for a sustainable way to support their healthspan.
@@ -50,13 +45,7 @@ const AboutSection = () => {
                         </p>
                     </div>
 
-                    <div className="about-image desktop-only-chart">
-                        <img
-                            src="/align-method-chart.png?v=11"
-                            alt="Align Health Method - Personalized, Structured, Sustainable"
-                            className="about-chart"
-                        />
-                    </div>
+
                 </div>
             </div>
             <style jsx>{`
