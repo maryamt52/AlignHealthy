@@ -249,7 +249,7 @@ img.navbar-logo {
 
   /* Mobile tweaks */
   img.navbar-logo {
-    max-height: 50px;
+    max-height: 140px;
     /* Standard mobile size */
   }
 }

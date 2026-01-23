@@ -66,7 +66,9 @@ const ServicesSection = () => {
                         <h3 style={titleStyle}>Free Consultation</h3>
                         <div style={textStyle}>
                             <p style={{ marginBottom: '1rem' }}>
-                                This free online call is the first step toward understanding your goals, current challenges, and the support you’re looking for. You’ll get a clear overview of our services, what working together looks like, and whether the ALIGN Health Method is the right fit for you—so you can make a confident, informed decision. *Let's Connect*
+                                This free online call is the first step toward understanding your goals, current challenges, and the support you’re looking for. You’ll get a clear overview of our services, what working together looks like, and whether the ALIGN Health Method is the right fit for you—so you can make a confident, informed decision.
+                                <br /><br />
+                                Let's Connect
                             </p>
                         </div>
                         <button onClick={scrollToContact} style={buttonStyle}>Start Today</button>
@@ -86,7 +88,7 @@ const ServicesSection = () => {
                                 Whether online or in-person, the method remains the same: structured programming, clear guidance, and education on why your plan works. This builds movement awareness, confidence, and long-term control over your training—rather than dependency.
                             </p>
                             <p style={{ fontStyle: 'italic', fontSize: '0.9rem', color: '#666' }}>
-                                *Personalized fitness coaching is available on its own or combined with Nutrition Coaching.*
+                                Personalized fitness coaching is available on its own or combined with Nutrition Coaching.
                             </p>
                         </div>
                         <button onClick={scrollToContact} style={buttonStyle}>Start Today</button>
@@ -103,7 +105,7 @@ const ServicesSection = () => {
                                 From there, using precise, current, science-based methods, we help you build a sustainable system around nutrition and daily routines—something that fits your life and is maintainable long term.
                             </p>
                             <p style={{ fontStyle: 'italic', fontSize: '0.9rem', color: '#666' }}>
-                                *Nutrition coaching is available on its own or with fitness Coaching.*
+                                Nutrition coaching is available on its own or with fitness Coaching.
                             </p>
                         </div>
                         <button onClick={scrollToContact} style={buttonStyle}>Start Today</button>
