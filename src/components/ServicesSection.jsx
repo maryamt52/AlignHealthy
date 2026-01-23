@@ -68,7 +68,7 @@ const ServicesSection = () => {
                             <p style={{ marginBottom: '1rem' }}>
                                 This free online call is the first step toward understanding your goals, current challenges, and the support you’re looking for. You’ll get a clear overview of our services, what working together looks like, and whether the ALIGN Health Method is the right fit for you—so you can make a confident, informed decision.
                                 <br /><br />
-                                Let's Connect
+                                <em>Let's Connect</em>
                             </p>
                         </div>
                         <button onClick={scrollToContact} style={buttonStyle}>Start Today</button>

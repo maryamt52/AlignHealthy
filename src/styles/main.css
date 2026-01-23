@@ -296,8 +296,7 @@ img.navbar-logo {
   height: auto;
   object-fit: contain;
   border-radius: var(--radius-md);
-  clip-path: inset(2px 15px 10px 15px);
-  /* Top: 2px, Right: 15px, Bottom: 10px, Left: 15px */
+  /* clip-path: inset(2px 15px 10px 15px); REMOVED to show full image */
   /* box-shadow: var(--shadow-md); removed shadow for cleaner look on diagram */
 }
 
