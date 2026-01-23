@@ -31,7 +31,6 @@ const AboutSection = () => {
                             src="/align-method-chart.png?v=3"
                             alt="Align Health Method - Personalized, Structured, Sustainable"
                             className="about-chart mobile-only-chart"
-                            style={{ mixBlendMode: 'multiply' }}
                         />
 
                         <p>
@@ -50,7 +49,6 @@ const AboutSection = () => {
                             src="/align-method-chart.png?v=3"
                             alt="Align Health Method - Personalized, Structured, Sustainable"
                             className="about-chart"
-                            style={{ mixBlendMode: 'multiply' }}
                         />
                     </div>
                 </div>

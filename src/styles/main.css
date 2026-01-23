@@ -296,7 +296,6 @@ img.navbar-logo {
   height: auto;
   object-fit: contain;
   border-radius: var(--radius-md);
-  mix-blend-mode: multiply;
   /* box-shadow: var(--shadow-md); removed shadow for cleaner look on diagram */
 }
 
