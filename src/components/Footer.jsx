@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaFacebookF, FaYoutube, FaTiktok, FaPodcast } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF, FaYoutube, FaTiktok, FaPodcast, FaStar } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -28,6 +28,9 @@ const Footer = () => {
                         </a>
                         <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 0.8 }} aria-label="TikTok">
                             <FaTiktok size={18} /> <span>TikTok</span>
+                        </a>
+                        <a href="https://g.page/r/CW2e7tcjGpbCEAI/review" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 1, fontWeight: 'bold' }} aria-label="Leave a Review">
+                            <FaStar size={18} color="#FFD700" /> <span>Leave a Review</span>
                         </a>
                     </div>
                 </div>
