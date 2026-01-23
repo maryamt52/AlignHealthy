@@ -20,10 +20,10 @@ const AboutSection = () => {
                 <div className="about-grid">
                     <div className="about-text about-content">
                         <p>
-                            <strong style={{ fontWeight: '600' }}>The ALIGN Health Method was created by Mary, a PhD-trained bioanalytical chemist with a research background in metabolomics.</strong> During her postdoctoral work, she explored how amino acids in nutrition can impact health and disease. Her ambition to understand how her scientific knowledge and research experience could help people live healthier lives led her to deliberately transition from lab-based research to applied health coaching, where she translates scientific insight into practical, sustainable habits for clients.
+                            <strong style={{ fontWeight: '600' }}>The ALIGN Health Method</strong> was founded by Mary, a PhD-trained bioanalytical chemist with a research background in metabolomics. During her postdoctoral work, she explored how dietary amino acids can impact health and disease. This research inspired a mission to help people improve their health for the long term, motivating her to transition from the lab to client-focused fitness and nutrition coaching. To bridge the gap between science and practical application, she earned her credentials as a Certified Personal Trainer, Nutrition Coach, and Corrective Exercise Specialist from the National Academy of Sports Medicine (NASM), translating scientific insight into sustainable habits for clients.
                         </p>
                         <p>
-                            The ALIGN Health Method is not about extremes, trends, or one-size-fits-all programs. It means aligning science-based health methods—from movement to nutrition, recovery, and daily life—in a way that works in the real world, at any age and at any starting point.
+                            <strong style={{ fontWeight: '600' }}>The ALIGN Health Method</strong> is not about extremes, trends, or one-size-fits-all programs. It aligns science-based fitness and nutrition methods—from strength training to sustainable eating—in a way that works for real life, at any age and starting point.
                         </p>
 
                         {/* Mobile Image: Appears after 2nd paragraph */}
@@ -34,14 +34,20 @@ const AboutSection = () => {
                         />
 
                         <p>
-                            This approach is for people who want to stay strong, mobile, balanced, and healthy over the long term—whether they are returning to training, managing recurring discomfort, or simply looking for a sustainable way to support their healthspan.
+                            This approach is for people who want to stay <strong style={{ fontWeight: '600' }}>strong, mobile, and fit over the long term</strong>—or who are simply looking for a sustainable way to support their healthspan.
                         </p>
                         <p>
-                            Coaching is available both online and in person, depending on individual needs.
-                            The goal is simple: to turn evidence-based science into practical methods that help you stay aligned with your health—now and in the years ahead.
+                            <strong style={{ fontWeight: '600' }}>At its core, the method focuses on consistency—not extremes.</strong>
                         </p>
-
-                        {/* "Learn How It Works" button removed here as replaced by "Start Today" in Contact section or global replacement */}
+                        <p>
+                            If your goal is to <strong style={{ fontWeight: '600' }}>get fitter, build muscle, or stay strong as you age</strong>, two of the biggest factors are how you move and how you eat. Many people struggle with careless training or aggressive dieting—only to miss their goals.
+                        </p>
+                        <p>
+                            We offer <strong style={{ fontWeight: '600' }}>personalized fitness and nutrition coaching — online or in person</strong> — to build a lifestyle you can actually maintain. We build plans that fit your level, schedule, and goals.
+                        </p>
+                        <p style={{ fontStyle: 'italic', fontSize: '1.1em' }}>
+                            We believe that <strong style={{ fontWeight: '600' }}>real results don’t come from where you start, but from your consistency</strong>.
+                        </p>
                     </div>
 
                     <div className="about-image desktop-only-chart">
