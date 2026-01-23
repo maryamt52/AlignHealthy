@@ -28,7 +28,7 @@ const AboutSection = () => {
 
                         {/* Mobile Image: Appears after 2nd paragraph */}
                         <img
-                            src="/align-method-chart.png?v=6"
+                            src="/align-method-chart.png?v=7"
                             alt="Align Health Method - Personalized, Structured, Sustainable"
                             className="about-chart mobile-only-chart"
                         />
@@ -52,7 +52,7 @@ const AboutSection = () => {
 
                     <div className="about-image desktop-only-chart">
                         <img
-                            src="/align-method-chart.png?v=6"
+                            src="/align-method-chart.png?v=7"
                             alt="Align Health Method - Personalized, Structured, Sustainable"
                             className="about-chart"
                         />

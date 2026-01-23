@@ -66,7 +66,7 @@ const ServicesSection = () => {
                         <h3 style={titleStyle}>Free Consultation</h3>
                         <div style={textStyle}>
                             <p style={{ marginBottom: '1rem' }}>
-                                This free online call is the first step toward understanding your goals, current challenges, and the support you’re looking for. You’ll get a clear overview of our services, what working together looks like, and whether the ALIGN Health Method is the right fit for you—so you can make a confident, informed decision.
+                                This free online call is the first step toward understanding your goals, current challenges, and the support you’re looking for. You’ll get a clear overview of our services, what working together looks like, and whether the ALIGN Health Method is the right fit for you—so you can make a confident, informed decision. *Let's Connect*
                             </p>
                         </div>
                         <button onClick={scrollToContact} style={buttonStyle}>Start Today</button>
@@ -94,7 +94,7 @@ const ServicesSection = () => {
 
                     {/* Nutrition */}
                     <div style={cardStyle}>
-                        <h3 style={titleStyle}>Nutrition</h3>
+                        <h3 style={titleStyle}>Nutrition Coaching</h3>
                         <div style={textStyle}>
                             <p style={{ marginBottom: '1rem' }}>
                                 Our nutrition coaching is provided entirely online for maximum flexibility. We begin with a structured assessment using targeted questionnaires to understand your current habits, lifestyle, and challenges. This allows us to clearly identify your starting point and set realistic, personalized goals.
