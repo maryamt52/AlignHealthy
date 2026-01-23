@@ -65,7 +65,7 @@ const ContactSection = () => {
         if (submitButton) submitButton.disabled = true;
 
         try {
-            await fetch("https://formsubmit.co/ajax/maryamt52@gmail.com", {
+            await fetch("https://formsubmit.co/ajax/alignhealthmethod@gmail.com", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',
