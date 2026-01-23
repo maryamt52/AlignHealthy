@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutSection = () => {
     return (
-        <section id="about" className="section" style={{ background: 'var(--color-bg)' }}>
+        <section id="about" className="section" style={{ background: 'var(--color-white)' }}>
             <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
 
                 {/* Specific Headline as Requested */}
@@ -28,7 +28,7 @@ const AboutSection = () => {
 
                         {/* Mobile Image: Appears after 2nd paragraph */}
                         <img
-                            src="/align-method-chart.png?v=2"
+                            src="/align-method-chart.png?v=3"
                             alt="Align Health Method - Personalized, Structured, Sustainable"
                             className="about-chart mobile-only-chart"
                             style={{ mixBlendMode: 'multiply' }}
@@ -47,7 +47,7 @@ const AboutSection = () => {
 
                     <div className="about-image desktop-only-chart">
                         <img
-                            src="/align-method-chart.png?v=2"
+                            src="/align-method-chart.png?v=3"
                             alt="Align Health Method - Personalized, Structured, Sustainable"
                             className="about-chart"
                             style={{ mixBlendMode: 'multiply' }}

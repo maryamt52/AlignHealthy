@@ -93,7 +93,7 @@ const ContactSection = () => {
     };
 
     return (
-        <section id="contact" className="section" style={{ backgroundColor: 'var(--color-bg)' }}>
+        <section id="contact" className="section" style={{ backgroundColor: 'var(--color-white)' }}>
             <div className="container" style={{ maxWidth: '600px', margin: '0 auto' }}>
                 <h2 style={{
                     marginBottom: '2rem',

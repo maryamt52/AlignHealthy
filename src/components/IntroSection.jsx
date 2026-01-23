@@ -2,7 +2,7 @@ import React from 'react';
 
 const IntroSection = () => {
     return (
-        <section className="section" style={{ backgroundColor: 'var(--color-white)', paddingBottom: '0' }}>
+        <section className="section" style={{ backgroundColor: 'var(--color-bg)', paddingBottom: '0' }}>
             <div className="container" style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
                 <h2 style={{
                     fontSize: '2rem',
