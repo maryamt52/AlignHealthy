@@ -20,7 +20,7 @@ const AboutSection = () => {
                 <div className="about-grid">
                     <div className="about-text about-content">
                         <p>
-                            <strong style={{ fontWeight: '600' }}>The ALIGN Health Method was created by Mary, a PhD-trained bioanalytical chemist with a research background in metabolomics.</strong> During her postdoctoral work, she explored how amino acids in nutrition can impact health and disease. The ambition of understanding how her scientific knowledge and research experience could actually help people live healthier lives led to her deliberate transition from lab-based research to applied health coaching, where scientific insight is translated into practical, sustainable habits and used directly with people.
+                            <strong style={{ fontWeight: '600' }}>The ALIGN Health Method was created by Mary, a PhD-trained bioanalytical chemist with a research background in metabolomics.</strong> During her postdoctoral work, she explored how amino acids in nutrition can impact health and disease. Her ambition to understand how her scientific knowledge and research experience could help people live healthier lives led her to deliberately transition from lab-based research to applied health coaching, where she translates scientific insight into practical, sustainable habits for clients.
                         </p>
                         <p>
                             The ALIGN Health Method is not about extremes, trends, or one-size-fits-all programs. It means aligning science-based health methods—from movement to nutrition, recovery, and daily life—in a way that works in the real world, at any age and at any starting point.
