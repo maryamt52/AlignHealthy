@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import './styles/main.css';
+import CookieConsent from './components/CookieConsent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Home />
       </main>
       <Footer />
+      <CookieConsent />
     </div>
   );
 }
