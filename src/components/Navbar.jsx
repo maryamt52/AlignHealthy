@@ -22,6 +22,7 @@ const Navbar = () => {
           <div className="desktop-links" style={{ display: 'flex', alignItems: 'center' }}>
             <a href="#home" className="nav-link">Home</a>
             <a href="#about" className="nav-link">About</a>
+            <a href="#services" className="nav-link">Services</a>
             <a href="#contact" className="nav-link">Contact</a>
           </div>
         </div>

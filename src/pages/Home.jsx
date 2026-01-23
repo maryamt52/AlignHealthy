@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import IntroSection from '../components/IntroSection';
 import AboutSection from '../components/AboutSection';
+import ServicesSection from '../components/ServicesSection';
 import ContactSection from '../components/ContactSection';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <Hero />
             <IntroSection />
             <AboutSection />
+            <ServicesSection />
             <ContactSection />
         </div>
     );
