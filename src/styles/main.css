@@ -191,7 +191,7 @@ video {
   z-index: 1000;
   background-color: var(--color-bg);
   backdrop-filter: blur(10px);
-  height: 80px;
+  /* height: 80px;  REMOVED fixed height to allow large logo */
   /* Balanced height */
   min-height: 80px;
   display: flex;
@@ -249,7 +249,7 @@ img.navbar-logo {
 
   /* Mobile tweaks */
   img.navbar-logo {
-    max-height: 140px;
+    max-height: 200px;
     /* Standard mobile size */
   }
 }
